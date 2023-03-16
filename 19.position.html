@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 400px;
+            height: 200px;
+            background-color: #a42121;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #7421a4;
+            /*1+2=絕對置中*/
+            position: absolute;
+            /*1.依照爸爸*/
+            top: 50%;
+            left: 50%;
+            /*2.依照自己的寬*/
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300%;
+
+
+            background-color: blue;
+
+
+            /*用爸爸來調整大小*/
+            /* width: auto;
+            height: auto;
+            background-color: #7421a4;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            bottom: 50px;
+            right: 10px; */
+
+
+
+            /*2.依照自己的寬*/
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300%;
+
+
+
+
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+
+            position: relative;
+            /*原地起飛，但原本的box還在，會產生幽靈空間什麼都進不去，所以這不是用來移動的，通常有特殊意義可以到空間的某處*/
+            left: 50px;
+            top: 50px;
+            z-index: 0;
+            /*有position才可以原地起飛*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="box">box1</div>
+        <div class="box2">box2</div>
+        <div class="wrap2"></div>
+    </div>
+</body>
+
+</html>

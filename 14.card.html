@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        .row {
+            /* display: flex; */
+            /*flex百憂解*/
+            font-size: 0;
+            /*把橫過去的清掉*/
+        }
+
+
+
+
+        .col {
+            /* box-sizing: border-box; */
+            /* width: 33.3333333%; */
+
+            /* width: calc(33.333333%-3px); */
+            width: 100%;
+            box-sizing: border-box;
+            /*真的內凹*/
+            padding-left: 5px;
+            padding-right: 5px;
+
+            margin-bottom: 20px;
+
+            display: inline-block;
+        }
+
+        @media screen and (min-width:576px) {
+            .col {
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width:768px) {
+            .col {
+                width: 33.333333%;
+            }
+        }
+
+
+        @media screen and (min-width:992px) {
+            .col {
+                width: 25%;
+            }
+
+        }
+
+
+        .card img {
+            width: 100%
+        }
+
+        .span {
+            color: tomato;
+        }
+
+        .card h3 {
+            font-size: 3rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶<span>值得推薦的點心</span>，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg" alt="">
+                            <h3>莓果鬆餅</h3>
+                            <p>戶外下午茶
+                                <span>值得推薦的點心</span>
+                                ，充滿奶香
+                                <span>大人小孩看了都心動</span>
+                                ，若再配上咖啡就更完美。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+</body>
+
+</html>
